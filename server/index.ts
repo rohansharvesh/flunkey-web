@@ -16,7 +16,14 @@ async function startServer() {
       ? path.resolve(__dirname, "public")
       : path.resolve(__dirname, "..", "dist", "public");
 
+  // Serve built static output
   app.use(express.static(staticPath));
+
+  // Serve repository-level `assets/` so paths like `/assets/*` resolve when
+  // the build output doesn't copy them into `public`. This helps Vercel
+  // deployments or other hosts where `assets/` is at the repo root.
+  const repoAssetsPath = path.resolve(__dirname, "..", "..", "assets");
+  app.use("/assets", express.static(repoAssetsPath));
 
   // Handle client-side routing - serve index.html for all routes
   app.get("*", (_req, res) => {

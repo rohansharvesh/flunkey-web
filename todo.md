@@ -1,0 +1,31 @@
+# Flunkey About hero refinement checklist
+
+- [x] Review cursor.com/home and the supplied logo/assets.
+- [x] Replace the About glass navbar with the same plain boxy navbar used by the tour and docs pages.
+- [x] Simplify the About hero to “Rohan Sharvesh” with “presents flunkey” beneath it.
+- [x] Remove the hero image holder and retain the existing “5–6 months in the making” detail.
+- [x] Verify the About page at desktop and mobile sizes and save a checkpoint.
+- [x] Remove the bottom Back to Flunkey link from the docs page.
+- [x] Keep only one first-screen action between Learn Flunkey and Continue.
+- [x] Build an About page using the founder story, BYOK/Groq model, Rust/Tauri details, contacts, and name origin.
+- [x] Add About to the persistent navigation and route map.
+- [x] Upload and place poster_animation.gif at the end of the About page.
+- [x] Verify the About route, poster animation, and responsive layouts.
+- [x] Save a new About page checkpoint.
+- [x] Inspect the supplied YouTube walkthrough and current docs structure.
+- [x] Add the video as the first docs section with playback controls and autoplay-safe behavior.
+- [x] Improve docs visuals with product diagrams, feature cards, and clearer explanations.
+- [x] Verify video embedding, docs navigation, and responsive presentation.
+- [x] Save a new docs enhancement checkpoint.
+- [x] Rebuild the homepage as a split-screen welcome experience with a persistent brand corner and docs link.
+- [x] Add Learn Flunkey and Continue actions with a clear guided-tour state model.
+- [x] Create sequential feature screens for voice capture, AI actions, rewriting, memory, integrations, and privacy.
+- [x] Make the tour keyboard-accessible and responsive at desktop, tablet, mobile, and small-mobile sizes.
+- [x] Verify the rebuilt flow and save a new checkpoint.
+- [x] Copy the user-provided logo into the webdev asset area and use it for the intro loader, header, favicon, and footer mark.
+- [x] Add a short first-visit intro loader with two to three logo rotations and the Flunkey wordmark appearing below it.
+- [x] Remove Talk to us, Request access, Request early access, and similar conversion-oriented CTAs.
+- [x] Keep the focused light editorial theme; no toggle was added because the current product-explanation direction is clearer without an additional mode switch.
+- [x] Expand feature education with a rewriting/editing walkthrough and additional product capability sections.
+- [x] Use the supplied logo assets where they strengthen the product explanation without turning the site into a social gallery.
+- [x] Verify loader timing, navigation, responsive behavior, and visual quality; then save a checkpoint.

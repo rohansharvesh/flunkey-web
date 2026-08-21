@@ -1,5 +1,5 @@
 // Legal pages: Terms of Service and Privacy Policy, in the same editorial voice as the docs.
-import { useEffect, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import { Link } from "wouter";
 import { ArrowLeft, ChevronRight, FileText, Home, Info, LockKeyhole } from "lucide-react";
 
@@ -629,12 +629,6 @@ const privacySections: LegalSection[] = [
 ];
 
 export function Terms() {
-  useEffect(() => {
-    document.title = "Terms of Service — Flunkey";
-    return () => {
-      document.title = "Flunkey — Voice-first productivity for Windows";
-    };
-  }, []);
   return (
     <LegalShell
       title={
@@ -650,12 +644,6 @@ export function Terms() {
 }
 
 export function Privacy() {
-  useEffect(() => {
-    document.title = "Privacy Policy — Flunkey";
-    return () => {
-      document.title = "Flunkey — Voice-first productivity for Windows";
-    };
-  }, []);
   return (
     <LegalShell
       title={

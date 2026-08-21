@@ -1,0 +1,3 @@
+# Flunkey
+
+See [/llms.txt](/llms.txt) for the canonical AI-readable description of the Flunkey website and product.

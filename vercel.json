@@ -1,6 +1,14 @@
 {
   "buildCommand": "vite build",
   "outputDirectory": "dist/public",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.flunkey.space" }],
+      "destination": "https://flunkey.space/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

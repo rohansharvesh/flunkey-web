@@ -13,7 +13,7 @@ import { Privacy, Terms } from "./pages/Legal";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
-const SITE_URL = "https://flunky.space";
+const SITE_URL = "https://flunkey.space";
 const DEFAULT_TITLE = "Flunkey — Voice-first productivity for Windows";
 const DEFAULT_DESCRIPTION = "Flunkey is a voice-first productivity layer for Windows that turns spoken thoughts into clean text, useful AI actions, and remembered context.";
 

@@ -4,12 +4,12 @@
 
 ## Primary pages
 
-- [Home](https://flunky.space/): Product overview and guided introduction to Flunkey.
-- [Documentation](https://flunky.space/docs): How voice capture, AI actions, rewriting, personal memory, connected tools, and privacy controls work.
-- [Download](https://flunky.space/download): Windows 10 and 11 x64 public beta download and setup instructions.
-- [About](https://flunky.space/about): Founder story, technical approach, BYOK Groq model, and contact details.
-- [Privacy Policy](https://flunky.space/privacy): Data handling, local storage, API requests, and user controls.
-- [Terms of Service](https://flunky.space/terms): Terms governing use of the Flunkey application.
+- [Home](https://flunkey.space/): Product overview and guided introduction to Flunkey.
+- [Documentation](https://flunkey.space/docs): How voice capture, AI actions, rewriting, personal memory, connected tools, and privacy controls work.
+- [Download](https://flunkey.space/download): Windows 10 and 11 x64 public beta download and setup instructions.
+- [About](https://flunkey.space/about): Founder story, technical approach, BYOK Groq model, and contact details.
+- [Privacy Policy](https://flunkey.space/privacy): Data handling, local storage, API requests, and user controls.
+- [Terms of Service](https://flunkey.space/terms): Terms governing use of the Flunkey application.
 
 ## Product facts
 

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /__manus__/
 
-Sitemap: https://flunky.space/sitemap.xml
+Sitemap: https://flunkey.space/sitemap.xml
